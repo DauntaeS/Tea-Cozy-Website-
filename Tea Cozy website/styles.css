@@ -1,0 +1,138 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    align-items: center;
+}
+/* Nav & Logo Section*/
+.top-div {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+nav img {
+    margin: 10px;
+    height: 50px;
+    float: left;
+}
+
+/* background img */
+
+.mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*x72uh2*_ga*MTc1OTE4MjY2Mi4xNjQ4OTUzMTU5*_ga_3LRZM6TM9L*MTY1MzAxOTk2Mi45MS4xLjE2NTMwMjA2NDAuNjA.);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 700px;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    position: relative;
+    max-width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* Img section */
+
+.tea-month {
+    max-width: 100%;
+    text-align: center;
+}
+
+.tea-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-img img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.Locations {
+    margin: 20px auto;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ddza20*_ga*MTc1OTE4MjY2Mi4xNjQ4OTUzMTU5*_ga_3LRZM6TM9L*MTY1MzE4NDgyOC45NS4xLjE2NTMxODc3NTIuNjA.);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 500px;
+}
+
+#special {
+    background-color: transparent;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.locations-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    max-width: 300px;
+    min-height: 100%;
+    margin: 15px 20px;
+    padding: 15px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+.locations-info p,
+.locations-info h3 {
+    margin: 10px auto;
+}
+
+footer div {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#copyright {
+    text-align: left;
+    padding: 20px;
+    margin-left: 20px;
+}
